@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body, html {
+    height: 100%;
+  }
+
+.navbar{
+    background-image: url('./img/hero-bg.jpg');
+    /* height: 1000px; */
+    position: relative;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+  
+
+        /* The image used */
+      
+        /* Set a specific height */
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+
+
+.nav-logo {
+    margin-top: -900px;
+
+
+}
+
+.nav2 {
+    margin-top: -900px;
+    margin-right: 200px;
+    font-size: 18px;
+    color: white;
+
+}
+
+.texts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text1{
+    color: orange;
+    font-size: 30px;
+}
+
+.text2{
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.btn1{
+    color: white;
+    background-color: orange;
+    border-radius: 30px;
+    border: 0px;
+    padding: 10px;
+}
+
+.btn2{
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: none;
+    border-color: orange ;
+}
+
+.product-main{
+    font-weight: 700;
+
+}
+.card:hover{
+    /* box-shadow: 0 1px 2px 7px rgb(136, 126, 108); */
+     transform: scale(1.07);
+    transition: transform 0.3s ease-in-out;
+    width: 320px;
+   }
+
+   .btn1:hover{
+    color: orange;
+    background-color: black;
+   }
+
+   .price{
+    font-weight: 800;
+   }
+.col2{
+    margin-left: 10px;
+}
+.col3{
+    margin-left: 10px;
+
+}
+
+.col4{
+    margin-left: 10px;
+
+}
+
+.stw{
+position: relative;
+}
+
+.txt-container{
+position: absolute;
+left: 70%;
+top: 250%;
+    transform: translate(-50%, -50%);
+}
+
+.img-cont{
+    position: absolute;
+    top: 20%;
+    left: -100%;
+    transform: translate(-50%, -50%);
+}
+.img-cont>img{
+    width: 110px;
+}
+
+.orange-container{
+    position: relative;
+}
+.ornge-txt{
+    position: absolute;
+    top: 460%;
+    left: 10%;
+    
+}
+
+.footer{
+    width: 1485px;
+    padding-left: 250px;
+    padding-right: 250px;
+   
+  }
+  
+  .fot-head{
+    font-size: 20px;
+  }
+  
+  .fot-para{
+    color: gray;
+    font-weight: 500;
+  }
